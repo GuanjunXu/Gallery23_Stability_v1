@@ -22,7 +22,7 @@ class GalleryTest(unittest.TestCase):
             commands.getoutput('adb root')
             time.sleep(5)
             commands.getoutput('adb remount')
-            d.swipe(550,1800,1000,1800)
+            d.swipe(530,1700,1000,1700)
         u._clearAllResource()
         u._confirmResourceExists()
         u.launchGallery()
